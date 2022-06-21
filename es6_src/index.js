@@ -9,4 +9,5 @@ const t = megaTest('ali naeemi');
 
 const fn = firstname(t.name);
 
+console.log(await t.test());
 console.log(fn);

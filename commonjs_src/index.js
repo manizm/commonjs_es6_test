@@ -1,8 +1,6 @@
-const { test } = require('./utils');
-
 function megaTest(name) {
   this.name = name;
-  this.test = test;
+  this.test = require('./utils.js').test;
 
   return {
     name, test
