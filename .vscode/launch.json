@@ -7,11 +7,29 @@
     {
       "type": "pwa-node",
       "request": "launch",
-      "name": "Launch Program",
+      "name": "Launch es6",
       "skipFiles": [
         "<node_internals>/**"
       ],
       "program": "${workspaceFolder}/es6_src/index.js"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Launch common",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/commonjs_src/index.js"
+    },
+    {
+      "type": "pwa-node",
+      "request": "launch",
+      "name": "Launch common_to_es6",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "program": "${workspaceFolder}/common_from_es6/index.js"
     }
   ]
 }
